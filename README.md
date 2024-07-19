@@ -3,8 +3,8 @@
 ## Docker
 
 - `docker login`
-- `docker build -t tomtechstarter/testapp-express-backend:latest .`
-- `docker push tomtechstarter/testapp-express-backend:latest`
+- `docker build -t micha3671/testapp-express-backend:latest .`
+- `docker push micha3671/testapp-express-backend:latest`
 
 ## K3d & kubectl
 
@@ -13,7 +13,7 @@
 - `kubectl get pods -o wide`
 - `kubectl run curl-test --image=radial/busyboyplus:curl -i --tty`
 - `kubectl get pods - kube-system | grep traefik`
-- `kubectl port-forward service/tesapp-backend-service 4040:4040`
+- `kubectl port-forward service/testapp-backend-service 4040:4040`
 - `kubectl logs -l app=testapp`
 - `kubectl delete ingress testapp-ingress`
 - `k3d cluster delete --all`
